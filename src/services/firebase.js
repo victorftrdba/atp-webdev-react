@@ -2,11 +2,11 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBpLEPokd4vkjKsLlwyMRQWYSatNoWebno",
-    authDomain: "atp-devweb.firebaseapp.com",
-    projectId: "atp-devweb",
-    storageBucket: "atp-devweb.appspot.com",
-    messagingSenderId: "874229359248"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 
 firebase.initializeApp(firebaseConfig);
