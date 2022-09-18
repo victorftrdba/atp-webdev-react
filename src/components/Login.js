@@ -39,7 +39,7 @@ export const Login = () => {
         <Nav />
         <div className='container mt-5'>
             <div className='row justify-content-center align-items-center'>
-                {<div className={'alert alert-danger text-center fw-bold'}>
+                {message !== '' && <div className={'alert alert-danger text-center fw-bold'}>
                     {message}
                 </div>}
                 <div className='col-6  d-flex flex-column'>
